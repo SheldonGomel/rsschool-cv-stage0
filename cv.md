@@ -31,4 +31,3 @@ Bachelor of Engineering - BE, Industrial electronics. Microelectronic and microp
 ### LANGUAGES
 - Russian (Native)
 - English (A1)
-
