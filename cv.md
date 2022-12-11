@@ -23,5 +23,12 @@ describe("Multiply", () => {
     assert.strictEqual(multiply(3,5), 15);   
   });
 ```
-
+### EDUCATION
+**Gomel Technical University P.O. Suhogo** *Sep 2009 - Jun 2012*
+Engineer researcher in the field of technical sciences, Elements and devices of computer technology and control systems.\
+**Gomel Technical University P.O. Suhogo** *Sep 2004 - Jun 2009*
+Bachelor of Engineering - BE, Industrial electronics. Microelectronic and microprocessor control and information devices.
+### LANGUAGES
+- Russian (Native)
+- English (A1)
 
