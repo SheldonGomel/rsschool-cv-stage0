@@ -1,0 +1,244 @@
+@font-face {
+    font-family: Cormorant;
+    src: url("../fonts/cormorantgaramond/Cormorantgaramondsemibolditalic.ttf");
+}
+
+@font-face {
+    font-family: Langar;
+    src: url("../fonts/Langar/Langar-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf");
+}
+
+h1 {
+    margin: 5px;    
+    font-family: OpenSans, montserrat, sans-serif;
+    font-size: 40px;
+    color: #000;
+}
+
+h2 {
+    font-family: Cormorant, montserrat, sans-serif;
+}
+
+p {
+    margin: 20px;
+    font-family: Cormorant, montserrat, sans-serif;
+    color: #000;
+}
+body{
+    background-color: #333333;
+}
+footer{
+    width: auto;
+    height: 10%; 
+}
+main{
+    width: auto;
+    height: 80%;
+}
+
+@keyframes changecolor{
+    0% {
+        background-color: #0066cc;
+      }
+      50% {
+        background-color: rgba(7, 195, 0, 0.77);
+      }
+      100% {
+        background-color: #0066cc;
+      }   
+}
+.page-header{
+    margin-left: 7%;
+}
+.page-footer{
+display: flex;
+}
+.page-footer div{
+    width: 50%;
+
+}
+.rslogo{
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    max-width: 1200px;
+    height: 95vh;
+    padding: 5px;
+    margin: auto;
+    border: solid 7px #cccccc;
+    border-radius: 10px;
+    animation: changecolor 5s infinite;
+}
+.content {
+    float: left;
+    overflow: hidden;   
+    width: 58%;
+    height: 90%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border: solid 3px white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff;   
+
+
+}
+.border{
+    position:relative;
+    display:inline-block;
+    margin-left: 3%;
+}
+.border img {
+    display:block;
+  }
+.myfoto {
+    position: absolute;
+    left: 60px;
+    top: 75px;
+    width: 250px;
+    padding: 0;
+    border: solid 7px white;
+    border-radius: 10px;
+    background-color: #0066cc;
+}
+.myfoto img{
+    position: relative;
+    width: 250px;
+    margin: 0;
+}
+.myname {
+    padding: 0 0 0 10px;
+    margin: 5px;
+    border: solid 7px white;
+    border-radius: 10px;
+    background-color: #22ccee;
+}
+
+.content p {
+    margin: 0;    
+    font-family: montserrat, sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #000000;
+}
+
+nav {
+    position: relative;
+    left: 7%;
+}
+.page-header nav {
+   left: 0px;
+}
+.content nav {
+    position: relative;
+    left: 0px;
+}
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-position: inside;
+    line-height: 1.8;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.content-menu li {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+.content-menu li.active-li {
+    color: #22ccee;
+}
+
+.content-menu a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.content-menu a:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cccccc;
+}
+
+.social li {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 0;
+    border: solid 2px #22ccee;
+    border-radius: 10px;
+    background: #22ccee;
+}
+
+.social li.active {
+    background: #ffffff;
+    color: #22ccee;
+}
+
+.social a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.social a:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cccccc;
+}
+.skills{
+    font-family: Cormorant, montserrat, sans-serif;
+    font-size: 18px;
+}
+ul { 
+    list-style-image: linear-gradient(to left, #0066cc, rgba(7, 195, 0, 0.77));
+
+}
+.space{
+    height: 100vh;
+}
+.foto-desс{
+    text-align: center;
+    color: #ffffff;
+}
+.rs-logo{
+    text-align: right;
+    width: 120px;
+}
+.footer-cop p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+.github-link p{
+    text-align: center;
+}
+.github-link a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+.github-link a:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cccccc;
+}
+code{
+    border-radius: 10px;
+}
