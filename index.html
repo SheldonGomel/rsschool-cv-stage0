@@ -120,6 +120,132 @@
                 </section>
                 <section>
                     <h2 id="contact">CONTACT</h2>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+</head>
+
+<body style="background-color: #333;">
+
+    <div class="wrapper">
+            <audio id="beep-two" controls preload="auto" style="display: none;height:  0;">
+                <source src="audio/dzzz.mp3" controls></source>
+            </audio>
+        <nav>
+            <ul id="light" class="content-menu">
+                <li class="active-li"><a href="#about">ABOUT</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#expirience">EXPIRIENCE</a></li>
+                <li><a href="#patent">PATENT</a></li>
+                <li><a href="#article">ARTICLE</a></li>
+                <li><a href="#proj">PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+
+                <script>$("#light a")
+                    .each(function(i) {
+                      if (i != 0) { 
+                        $("#beep-two")
+                          .clone()
+                          .attr("id", "beep-two" + i)
+                          .appendTo($(this).parent()); 
+                      }
+                      $(this).data("beeper", i);
+                    })
+                    .mouseenter(function() {
+                      $("#beep-two" + $(this).data("beeper"))[0].play();
+                    });
+                  $("#beep-two").attr("id", "beep-two0");</script>
+            </ul>
+
+        </nav>
+        
+        <div>
+        <div class="content">
+            <h1 id="about">Vitali Starastsenka</h1>
+            <h1 style="font-size: 30px;">Lead electronics engineer</h1>
+                  
+                <div>
+                    <h2>ABOUT</h2>
+                    <p>- development of printed circuit boards in CAD software (Altium Designer, OrCad, DipTrace, etc.) <br>
+                        - development of software for microcontrollers (AVR, MicroChip, ST, etc.) and PLC programmable logic controllers (Siemens, Mitsubishi, Moeller, etc.) <br>
+                        - development of electrical circuits of primary converters and power electronics (Proteus, MicroCap, AutoCAD, etc.) <br>
+                        Programming languages: <br>
+                        - C++ and Assembler for microcontrollers <br>
+                        - C#, Python, HTML, CSS, PHP, SQL, Java <br> </p>
+                    <div class="space"></div>
+                </div>
+                <div id="expirience">
+                    <h2>ОПЫТ РАБОТЫ</h2>
+                    <p><b>2012-2015 ГГТУ им.П.О.Сухого Кафедра "Промышленная электроника", ассистент преподаватель</b></p>
+                    <p>Обучение студентов, участие в хоздоговорах, проведение лабораторных и практических занятий по спецпредметам, 
+                        ведение курсовых и дипломных проектов по микропроцессорной технике.
+                        Программирование 8-ми и 16-ти битных микроконтроллеров на Assembler и C++. 
+                        Программирование промышленных контроллеров и панелей операторов (Omron,Siemens,Mitsubishi,Owen,Mueller). 
+                        Работа со SCADA системами. Имел опыт работы с Delphi, C++ Builder, C#. 
+                        Разработка программной и аппаратной части электронных устройств в рамках проектов по хоздоговорной деятельности для 
+                        ОАО "Гомельтранснефть Дружба", ПО «Белоруснефть», ЗАО"Атлант", ОАО «ВЗЭП» и др.
+                    </p>
+                    <p><b>2015-2021 ОАО "Буровая компания Дельта"</b></p>
+                    <p>Обслуживание автоматики буровых установок
+                        Чтение технической документации, анализ неисправностей, деффектация неисправных узлов, составление заявок на покупку, поиск аналогов. Адаптация технологического оборудования под существующие производственные мощности. Поиск путей дешевого, быстрого и эффективного решения вопросов по нестандартному применению имеющегося оборудования. 
+                    </p><div class="space"></div>
+                </div>
+                <div id="education">
+                    <h2>ОБРАЗОВАНИЕ</h2>
+                    <p>Учебное заведение: ГГТУ им.П.О.Сухого</p>
+                    <p>Год окончания : 2009</p>
+                    <p>Вид обучения: Высшее дневное</p>
+                    <p>Факультет: ФАИС</p>
+                    <p>Специальность: Промышленная электроника</p>
+                    <p>В 2012г. закончил аспирантуру по специальности "Элементы вычислительной техники и систем
+                        управления", присвоена научная квалификация "Исследователь в области технических наук. </p>
+                    <div class="space"></div>
+                    <h2 id="patent">ПАТЕНТЫ И ИЗОБРЕТЕНИЯ</h2>
+                    <p>
+                        <b>Устройство для определения местонахождения очистных и диагностических снарядов в
+                            трубопроводе.</b> – Пат. 19628 Респ. Беларусь. – МПК F 17D 5/00. Учреждение образования
+                        «Гомельский государственный технический университет имени П.О. Сухого» (BY). – № а 20130029;
+                        заявл. 07.08.2012. – Козусев Юрий Андреевич (BY), Крышнев Юрий Викторович (BY), Сахарук
+                        Андрей Владимирович (BY), Столбов Максим Викторович (BY), Старостенко Виталий Олегович (BY),
+                        Захаренко Леонид Александрович (BY), Кухаренко Сергей Николаевич (BY), Гарбуз Вячеслав
+                        Николаевич (BY), Лукашов Вячеслав Михайлович (BY).
+                    </p>
+                    <div class="space"></div>
+                    <h2 id="article">ПУБЛИКАЦИИ</h2>
+                    <p>
+                        <b>Выбор оптимальной частоты измерительного сигнала для поиска мест повреждения изоляции
+                            трубопровода</b> / Н.И. Вяхирев, Л.А. Захаренко, В.О. Старостенко, А.С. Храмов, А.Н.
+                        Козик, С.М. Бодиловский, С.Г. Купреев // Надежность и безопасность магистрального
+                        трубопроводного транспорта: материалы VII междунар. науч.-техн. конф., Ново-полоцк, 22 — 25
+                        ноября 2011 г. / Полоц. гос. ун-т; под общ. ред. д-ра техн. наук, проф. В. К. Липского. —
+                        Новополоцк, 2011. — с. 136 — 138. 
+                    </p>
+                    <p>
+                        <b>Анализ М-последовательностей многозначных символов</b> / Ю.И. Сазонов, Е.А. Храбров, В.О.
+                        Старостенко, Д.Е. Храбров // Наукоемкие технологии. — М. — 2008. — С. 18 — 22.
+                    
+                    <a id="metodichka"
+                        href="http://unicat.nlb.by/opac/pls/pages.view_doc?off=0&siz=20&qid=40812&format=full&nn=1"><b>
+                            Микроэлектроника и микросхемотехника</b> : </a>
+                    <p> учебно-методическое пособие / Л. А. Захаренко, В. О. Старостенко ; Министерство образования
+                        Республики Беларусь, Учреждение образования "Гомельский государственный технический
+                        университет им. П. О. Сухого", Кафедра "Промышленная электроника"</p></p>
+                    <div class="space"></div>
+                    <h2 id="proj"> PROJECT </h2>
+                        <p>
+                            <a href="https://photos.app.goo.gl/Q7T5uoeV2NRjhKSPA">CNC machine for automatic plasma cutting and welding of steel pipes.</a>  Feb 2017 - Mar 2020
+                        Development of Automatic Machine Control System. Industrial Computer with software for CNC machines MACH3 was used as a main unit of this project. The control algorithm is implemented using VBScript. <br>
+                        <a href="https://photos.app.goo.gl/4zY7WDW5aDrUFtgt5">Control Channel Extension Board for CNC Machine.</a>    Jan 2018 - Aug 2018
+                        Development of Control Channel Extension Board for the CNC machine project to extend the control capability from 5 axes to 20 and increase the number of controlled sensors. <br>
+                        <a href="https://photos.app.goo.gl/JX4W2DNvG1BsSNtK6">Development of a high-frequency amplifier.</a>  Mar 2011 - Sep 2011
+                        Development, manufacture and laboratory research of a 30-watt amplification cell for a stochastic beam cooling system in the NICA collider. In this project, my task was to develop a microcontroller board to control the power and control signals of the microwave amplifier microcircuit. The PIC18F2520 was used as a microcontroller, the software was written in the C language. The board and the circuit were developed in Altium Designer. <br>
+                        <a href="https://photos.app.goo.gl/g1FetbLFT3Eu9iKR8">Washing machine control unit.</a>  Feb 2009 - Apr 2011
+                        This project was made for the Atlant company, the largest manufacturer of consumer electronics in Belarus. My task was to develop a part of the software for testing blocks at the manufacturer's testing stand, as well as checking the noise immunity of the board.
+
+                        </p>
+                    <div class="space"></div>
+                    <h2 id="contact"> <br> CONTACT</h2>
+
                     <nav>
                         <ul class="social">
                             <li class="active-li"><a href="https://vk.com/" target="_blank">VK</a></li>
@@ -162,4 +288,23 @@
         </footer>
     </div>
 </body>
+                    <div class="space"></div>
+
+                </div>
+        </div>
+        <div class="border">
+            <img src="trace.png" alt="">
+            <div class="myfoto">
+
+                    <img src="foto.png" alt="">
+                    <p style="text-align: center; color: #fff;">VITALI STARASTSENKA</p>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+</body>
+
 </html>
