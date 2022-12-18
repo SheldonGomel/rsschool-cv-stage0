@@ -6,6 +6,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyCV</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="stylesheet" href="script/highlight/styles/agate.min.css">
+    <script src="script/highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="page-header">
+            <nav>
+                <ul id="light" class="content-menu">
+                    <li class="active-li"><a href="#about">ABOUT</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#code-js">CODE</a></li>
+                    <li><a href="#expirience">EXPIRIENCE</a></li>
+                    <li><a href="#proj">PROJECT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="content">
+                <section>
+                    <h1 id="about">Vitali Starastsenka</h1>
+                    <h2>Lead electronics engineer</h2>
+                    <h2>ABOUT</h2>
+                    <p>- development of printed circuit boards in CAD software (Altium Designer, OrCad, DipTrace,
+                        etc.)<br>
+                        - development of software for microcontrollers (AVR, MicroChip, ST, etc.) and PLC programmable
+                        logic controllers (Siemens, Mitsubishi, Moeller, etc.)<br>
+                        - development of electrical circuits of primary converters and power electronics (Proteus,
+                        MicroCap, AutoCAD, etc.)<br>
+                    </p>
+                    <h2>SKILLS</h2>
+                    <ul class="skills">
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>C#</li>
+                    </ul>
+                    <div class="space"></div>
+                </section>
+                <section>
+                    <h2 id="education">EDUCATION</h2>
+                    <p><u>Gomel Technical University P.O. Suhogo Sep 2009 - Jun 2012</u><br>
+                        Engineer researcher in the field of technical sciences, Elements and devices of computer
+                        technology and control
+                        systems.<br>
+                        <u>Gomel Technical University P.O. Suhogo Sep 2004 - Jun 2009</u><br>
+                        Bachelor of Engineering - BE, Industrial electronics. Microelectronic and microprocessor control
+                        and information
+                        devices. <br>
+                    </p>
+                    <h2>Languages</h2> 
+                    <ul>
+                        <li>Russian (Native)</li>
+                        <li>English (A1)</li>
+                    </ul>
+                <div class="space"></div>
+                </section>
+                <section>
+                    <h2 id="code-js">CODE</h2>
+                    <pre>
+                    <code class="language-javascript">
+                    const assert = require("chai").assert;
+                    describe("Multiply", () => {
+                        it("fixed tests", () => {
+                            assert.strictEqual(multiply(1,1), 1);
+                            assert.strictEqual(multiply(2,1), 2);
+                            assert.strictEqual(multiply(2,2), 4);
+                            assert.strictEqual(multiply(3,5), 15);   
+                        });
+                    </code>
+                    </pre>
+                    <div class="space"></div>
+                </section>
+                <section>
+                    <h2 id="expirience">EXPIRIENCE</h2>
+                    <p><b>Senior Electronic Engineer</b> (OJSC Delta Drilling Company · Full-time)<br>
+                        Sep 2015 - Present · 7 years<br>
+                        Gomel, Belarus<br>
+                        <b>Teacher of Technical Sciences</b> (Gomel Technical University P.O. Suhogo · Full-time)<br>
+                        Sep 2009 - Sep 2015 · 6 years<br>
+                        Gomel, Belarus<br>
+                    </p>
+                    <p><b>2015-2021 ОАО "Буровая компания Дельта"</b></p>
+                    <div class="space"></div>
+                </section>
+                <section>
+                    <h2 id="proj"> PROJECT </h2>
+                    <p>
+                        <a href="https://photos.app.goo.gl/4zY7WDW5aDrUFtgt5" target="_blank">Control Channel Extension
+                            Board for CNC Machine.</a> Jan 2018 - Aug 2018
+                        Development of Control Channel Extension Board for the CNC machine project to extend the control
+                        capability from 5 axes to 20 and increase the number of controlled sensors. <br>
+                        <a href="https://photos.app.goo.gl/JX4W2DNvG1BsSNtK6" target="_blank">Development of a
+                            high-frequency amplifier.</a> Mar 2011 - Sep 2011
+                        Development, manufacture and laboratory research of a 30-watt amplification cell for a
+                        stochastic beam cooling system in the NICA collider. In this project, my task was to develop a
+                        microcontroller board to control the power and control signals of the microwave amplifier
+                        microcircuit. The PIC18F2520 was used as a microcontroller, the software was written in the C
+                        language. The board and the circuit were developed in Altium Designer. <br>
+                        <a href="https://photos.app.goo.gl/g1FetbLFT3Eu9iKR8" target="_blank">Washing machine control
+                            unit.</a> Feb 2009 - Apr 2011
+                        This project was made for the Atlant company, the largest manufacturer of consumer electronics
+                        in Belarus. My task was to develop a part of the software for testing blocks at the
+                        manufacturer's testing stand, as well as checking the noise immunity of the board.
+                    </p>
+                    <div class="space"></div>
+                </section>
+                <section>
+                    <h2 id="contact">CONTACT</h2>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
@@ -131,6 +245,7 @@
                         </p>
                     <div class="space"></div>
                     <h2 id="contact"> <br> CONTACT</h2>
+
                     <nav>
                         <ul class="social">
                             <li class="active-li"><a href="https://vk.com/" target="_blank">VK</a></li>
@@ -140,6 +255,39 @@
                             <li><a href="https://gmail.com/" target="_blank">MAIL</a></li>
                         </ul>
                     </nav>
+                    <ul>
+                        <li>email: sheldongomel@gmail.com</li>
+                        <li>mobile phone +375255456525</li>
+                        <li>discord rs-school: Sheldon#0178</li>
+                    </ul>
+                    <div class="space"></div>
+                </section>
+
+
+            </div>
+            <div class="border">
+                <img src="image/trace.png" alt="background">
+                <div class="myfoto">
+                    <img src="image/foto.png" alt="VITALI STARASTSENKA">
+                    <p class="foto-desс">VITALI STARASTSENKA</p>
+                </div>
+            </div>
+        </main>
+        <footer class="page-footer">
+            <div class="footer-cop">
+                <p>© 2022 by VITALI STARASTSENKA</p>
+            </div>
+            <div class="github-link">
+                <p><a href="https://github.com/SheldonGomel" target="blank">GitHub</a></p>
+            </div>
+            <div class="rslogo">
+                <a href="https://rs.school/js/" target="blank">
+                    <img src="image/rs_school_js.svg" alt="rs_logo" class="rs-logo">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
                     <div class="space"></div>
 
                 </div>
@@ -155,8 +303,6 @@
 
     </div>
     </div>
-
-
 
 
 </body>
